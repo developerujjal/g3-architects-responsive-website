@@ -31,6 +31,7 @@ header{
 .main-menu{
     
     display: flex;
+    padding: 0px;
 }
 
 .main-menu li{
@@ -60,9 +61,6 @@ header{
 }
 
 
-.content-div{
-    margin: 0px auto;
-}
 
 .content-div {
     max-width: 800px;
@@ -91,4 +89,81 @@ button.btn-primary {
 
 button.btn-primary:hover{
     cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:640px) {
+    header{
+        padding: 15px;
+    }
+
+    .header-nav{
+        flex-direction: column;
+    }
+
+    .content-div p{
+        font-size: 1.111rem;
+    }
+}
+
+
+@media screen and (min-width:641px) and (max-width:767px) {
+    header{
+        padding: 16px;
+    }
+
+    .header-nav h3{
+        font-size: 2.3rem;
+    } 
+
+    .content-div p{
+        font-size: 1.111rem;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    header{
+        padding: 20px;
+    }
+
+    .content-div p{
+        font-size: 1.111rem;
+    }
+}
+
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    header{
+        padding: 20px;
+    }
+
+    .content-div p{
+        font-size: 1.111rem;
+    }
+}
+
+
+@media screen and (min-width:1280px) and (max-width:1535px) {
+    header{
+        padding: 20px;
+    }
+
+    .content-div p{
+        font-size: 1.111rem;
+    }
+}
+
+@media screen and(min-width:1536px) {
+    header{
+        padding: 20px;
+    }
+
+    .content-div p{
+        font-size: 1.111rem;
+    }
 }
