@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.main-menu{
+    
+    display: flex;
+}
+
+.main-menu li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.main-menu li:last-child{
+    margin-right: 0px;
+}
+
+.main-menu li a{
+    color: #424242;
+    text-decoration: none;
+}
+
+
+.content-div-img {
+    width: 100%;
+    margin-top: 22px;
+}
+
+.content-div-img img {
+    width: 100%;
+}
+
+
+.content-div{
+    margin: 0px auto;
+}
+
+.content-div {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content-div h1 {
+    font-weight: 700;
+    color: #131313;
+    font-size: 4rem;
+}
+
+.content-div p{
+    color: #727272;
+}
+
+button.btn-primary {
+    padding: 15px 22px;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 11px;
+}
+
+button.btn-primary:hover{
+    cursor: pointer;
+}
