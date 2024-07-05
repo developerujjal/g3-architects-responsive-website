@@ -93,6 +93,60 @@ button.btn-primary:hover{
 
 
 
+/* Our Features Section */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.our-feature-container{
+    display: flex;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.our-feature-img{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.our-feature-content{
+    padding: 0px 74px;
+}
+
+.our-feature-content p{
+    color: #727272;
+}
+
+.our-feature-content h3{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.our-feature-content h3 span:first-child{
+    font-weight: 500;
+    color: #727272;
+    
+}
+
+.our-feature-content h3 span:last-child{
+    color: #FF900E;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:640px) {
     header{
