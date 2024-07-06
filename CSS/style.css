@@ -23,7 +23,9 @@ header{
 }
 
 .header-nav h3,
-.some-fact-title
+.some-fact-title,
+.sponsors-title,
+.features-content h3
 {
     font-size: 2.8rem;
     font-weight: 700;
@@ -77,7 +79,10 @@ header{
 }
 
 .content-div p,
-.some-fact-des
+.some-fact-des,
+.sponsors-des,
+.copyright-text p,
+.features-content p
 {
     color: #727272;
 }
@@ -170,9 +175,77 @@ main{
     color: #727272;
 }
 
-.some-fact-parent{
-    padding: 70px 15px;
+
+
+.features-container{
+    display: flex;
+    gap: 124px;
 }
+
+
+.features-card{
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 2px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 26px;
+    margin-bottom: 20px;
+}
+
+
+.features-content h3{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.ten-year-exp{
+    width: 340px;
+    background-color: #FF900E;
+    padding: 45px 25px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    bottom: 65px;
+    left: -82px;
+}
+
+.ten-year-exp h2{
+    font-size: 4rem;
+    color: #FFF;
+    margin: 0px;
+
+}
+
+.ten-year-exp span{
+    font-size: 1.5rem;
+    color: #FFF;
+    display: inline-block;
+    margin: 15px 0px;
+    
+}
+
+
+.some-fact-parent,
+.sponsors-section,
+.features-section
+{
+    padding: 0px 15px 70px 15px;
+}
+
+.sponsors-section{
+    text-align: center;
+}
+
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+footer.footer-section {
+    text-align: center;
+}
+
 
 
 
@@ -183,7 +256,9 @@ main{
 
     .header-nav,
     .our-feature-container,
-    .sucess-box-container
+    .sucess-box-container,
+    .sponsor-img-container,
+    .features-container
     {
         flex-direction: column;
     }
@@ -191,7 +266,9 @@ main{
 
     .content-div p,
     .our-feature-content p,
-    .some-fact-parent p
+    .some-fact-parent p,
+    .sponsors-des,
+    .features-content p
     {
         font-size: 1.111rem;
     }
@@ -204,8 +281,23 @@ main{
         padding: 0px 20px;
     }
 
-    .sucess-box-container{
-        gap: 10px;
+    .sucess-box-container,
+    .sponsor-img-container
+    {
+        gap: 30px;
+    }
+
+    .Features-img{
+        width: 100%;
+    }
+
+    .Features-img img{
+        width: 100%;
+    }
+
+    .ten-year-exp{
+        position: unset;
+        max-width: 295px;
     }
 
 
@@ -223,13 +315,17 @@ main{
 
     .content-div p,
     .our-feature-content p,
-    .some-fact-parent p
+    .some-fact-parent p,
+    .sponsors-des,
+    .features-content p
     {
         font-size: 1.111rem;
     }
 
     .our-feature-container,
-    .sucess-box-container
+    .sucess-box-container,
+    .sponsor-img-container,
+    .features-container
     {
         flex-direction: column;
     }
@@ -246,9 +342,36 @@ main{
         padding: 0px 15px;
     }
 
-    .sucess-box-container{
-        gap: 10px;
+    .sucess-box-container,
+    .sponsor-img-container
+    {
+        gap: 30px;
     }
+
+    .sponsor-img-container img{
+        width: 50%;
+        margin: 0px auto;
+    }
+
+
+    .Features-img{
+        width: 100%;
+    }
+
+    .Features-img img{
+        width: 100%;
+    }
+
+
+    .ten-year-exp{
+        position: unset;
+        width: 92%;
+    }
+
+
+
+
+
 
 
 }
@@ -261,18 +384,46 @@ main{
 
     .content-div p,
     .our-feature-content p,
-    .some-fact-parent p
+    .some-fact-parent p,
+    .sponsors-des,
+    .features-content p
     {
         font-size: 1.111rem;
     }
 
-    .our-feature-container
+    .our-feature-container,
+    .features-container
     {
         flex-direction: column;
     }
 
-    .sucess-box-container{
-        gap: 10px;
+    .sucess-box-container,
+    .sponsor-img-container
+    {
+        gap: 20px;
+    }
+
+    .sponsor-img-container{
+        width: 100%;
+    }
+
+    .sponsor-img-container img{
+        width: 18%;
+    }
+
+    
+    .Features-img{
+        width: 100%;
+    }
+
+    .Features-img img{
+        width: 100%;
+    }
+
+
+    .ten-year-exp{
+        position: unset;
+        width: 94%;
     }
 }
 
@@ -285,14 +436,32 @@ main{
 
     .content-div p,
     .our-feature-content p,
-    .some-fact-parent p
+    .some-fact-parent p,
+    .sponsors-des,
+    .features-content p
     {
         font-size: 1.111rem;
     }
 
-    .our-feature-container
+    .our-feature-container,
+    .features-container
     {
         flex-direction: column;
+    }
+
+        
+    .Features-img{
+        width: 100%;
+    }
+
+    .Features-img img{
+        width: 100%;
+    }
+
+
+    .ten-year-exp{
+        position: unset;
+        width: 95%;
     }
 }
 
