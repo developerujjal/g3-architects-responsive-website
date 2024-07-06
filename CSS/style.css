@@ -153,12 +153,24 @@ main{
         padding: 15px;
     }
 
-    .header-nav{
+    .header-nav,
+    .our-feature-container
+    {
         flex-direction: column;
     }
 
-    .content-div p{
+    .content-div p,
+    .our-feature-content p
+    {
         font-size: 1.111rem;
+    }
+
+    .our-feature-img{
+        grid-template-columns: 1fr;
+    }
+
+    .our-feature-content{
+        padding: 0px 20px;
     }
 }
 
@@ -172,8 +184,27 @@ main{
         font-size: 2.3rem;
     } 
 
-    .content-div p{
+    .content-div p,
+    .our-feature-content p
+    {
         font-size: 1.111rem;
+    }
+
+    .our-feature-container
+    {
+        flex-direction: column;
+    }
+
+    .our-feature-img{
+        width: 100%;
+    }
+
+    .our-feature-img img{
+        width: 100%;
+    }
+
+    .our-feature-content{
+        padding: 0px 15px;
     }
 
 }
@@ -184,8 +215,15 @@ main{
         padding: 20px;
     }
 
-    .content-div p{
+    .content-div p,
+    .our-feature-content p
+    {
         font-size: 1.111rem;
+    }
+
+    .our-feature-container
+    {
+        flex-direction: column;
     }
 }
 
@@ -196,8 +234,15 @@ main{
         padding: 20px;
     }
 
-    .content-div p{
+    .content-div p,
+    .our-feature-content p
+    {
         font-size: 1.111rem;
+    }
+
+    .our-feature-container
+    {
+        flex-direction: column;
     }
 }
 
@@ -207,7 +252,9 @@ main{
         padding: 20px;
     }
 
-    .content-div p{
+    .content-div p,
+    .our-feature-content p
+    {
         font-size: 1.111rem;
     }
 }
@@ -217,7 +264,9 @@ main{
         padding: 20px;
     }
 
-    .content-div p{
+    .content-div p,
+    .our-feature-content p
+    {
         font-size: 1.111rem;
     }
 }
